@@ -14,3 +14,6 @@
 - use port 2222 for ssh logins
 
 ## Usage
+
+Scripts inside /etc/pve can't be modified for execution.  
+Therefore you have to start 'em with `bash <path_to_script>` 
