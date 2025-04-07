@@ -15,5 +15,7 @@
 
 ## Usage
 
-Scripts inside /etc/pve can't be modified for execution.  
+Clone this repo into /etc/pve/ext/scripts.  
+Now, it's available on all nodes for execution because of pmxcfs.  
+Be aware, that scripts inside /etc/pve can't be modified for execution.  
 Therefore you have to start 'em with `bash <path_to_script>` 
